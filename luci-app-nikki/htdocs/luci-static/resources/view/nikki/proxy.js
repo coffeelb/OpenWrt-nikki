@@ -179,7 +179,7 @@ return view.extend({
         o = s.taboption('bypass', form.Value, 'proxy_tcp_dport', _('Destination TCP Port to Proxy'));
         o.rmempty = false;
         o.value('0-65535', _('All Port'));
-        o.value('21 22 80 110 143 194 443 465 853 993 995 8080 8443', _('Commonly Used Port'));
+        o.value('80 143 443 465 587 853 993 995 8080 8443 9418', _('Commonly Used Port'));
 
         o = s.taboption('bypass', form.Value, 'proxy_udp_dport', _('Destination UDP Port to Proxy'));
         o.rmempty = false;
