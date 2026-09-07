@@ -75,7 +75,7 @@ Note that the steps above may change base on config.
 
 ```shell
 # add feed
-echo "src-git nikki https://github.com/nikkinikki-org/OpenWrt-nikki.git;main" >> "feeds.conf.default"
+echo "src-git nikki https://github.com/coffeelb/OpenWrt-nikki.git;main" >> "feeds.conf.default"
 # update & install feeds
 ./scripts/feeds update -a
 ./scripts/feeds install -a
